@@ -12,24 +12,24 @@ const Pricing = () => {
                 <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
                     <Cards icon={First}
                         priceTitle="Single User"
-                        price="$149"
+                        price="$199"
                         storage="500 GB Storage"
                         userCount="1 Granted User"
                         limits="Send up to 2 GB"
                     />
                     <Cards icon={Second}
-                        priceTitle="Single User"
-                        price="$149"
-                        storage="500 GB Storage"
-                        userCount="1 Granted User"
-                        limits="Send up to 2 GB"
+                        priceTitle="10 Users"
+                        price="$399"
+                        storage="3 TB Storage"
+                        userCount="10 Granted User"
+                        limits="Send up to 10 GB"
                     />
                     <Cards icon={Third}
-                        priceTitle="Single User"
-                        price="$149"
-                        storage="500 GB Storage"
-                        userCount="1 Granted User"
-                        limits="Send up to 2 GB"
+                        priceTitle="Unlimited Users"
+                        price="$999"
+                        storage="Unlimited Storage"
+                        userCount="Unlimited Granted User"
+                        limits="No Data Cap"
                     />
                 </div>
             </div>
